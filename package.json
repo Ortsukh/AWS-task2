@@ -9,7 +9,7 @@
     "client:deploy:nc": "npm run client:deploy -- --no-confirm",
     "client:build:deploy": "npm run build && npm run client:deploy",
     "client:build:deploy:nc": "npm run build && npm run client:deploy:nc",
-    "cloudfront:setup": "sls client deploy",
+    "cloudfront:setup": "sls client deploy ",
     "cloudfront:domainInfo": "sls domainInfo",
     "cloudfront:invalidateCache": "sls invalidateCloudFrontCache",
     "cloudfront:build:deploy": "npm run client:build:deploy && npm run cloudfront:invalidateCache",
