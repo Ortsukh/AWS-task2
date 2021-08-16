@@ -18,7 +18,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-task2-auto
+    bucketName: my-task2-aut 
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
